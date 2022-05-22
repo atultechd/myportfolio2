@@ -70,3 +70,21 @@ $(document).ready(function(){
         }
     });
 });
+
+
+// function sendEmail(){
+//     Email.send({
+//         Host : "smtp.gmail.com",
+//         Username : "atultechd@gmail.com",
+//         Password : "9651@8680",
+//         To : 'atultechd@gmail.com',
+//         From : document.getElementById("email_email").value,
+//         Subject : "New contact form enquiry",
+//         Body : "Name: " + document.getElementById("name_name").value
+//                 + "<br> Email: " + document.getElementById("email_email").value
+//                 + "<br> Subject: " + document.getElementById("subject_subject").value
+//                 + "<br> Message: " + document.getElementById("message_message").value
+//     }).then(
+//         message => alert("Message sent successfully")
+//     );
+// }

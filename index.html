@@ -26,7 +26,7 @@
                 <li><a href="#services" class="menu-btn">Services</a></li>
                 <li><a href="#skills" class="menu-btn">Skills</a></li>
                 <li><a href="#teams" class="menu-btn">Teams</a></li>
-                <li><a href="#contact" class="menu-btn">Contact</a></li>
+                <li><a href="#contact" class="menu-btn">Connect</a></li>
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
@@ -249,20 +249,20 @@
             </div>
             <div class="column right">
                 <div class="text">Message me</div>
-                <form class="contact-form" action="#" method="POST">
+                <form class="contact-form" action="https://formsubmit.co/atultechd@gmail.com" method="POST">
                     <div class="fields">
                         <div class="field name">
-                            <input type="text" class="fullname" placeholder="Name">
+                            <input type="text" name="name" required id="name_name" class="fullname" placeholder="Name">
                         </div>
                         <div class="field email">
-                            <input type="text" class="email-input" placeholder="Email">
+                            <input type="text" name="email" required id="email_email" class="email-input" placeholder="Email">
                         </div>
                     </div>
                     <div class="field">
-                        <input type="text" class="subject" placeholder="Subject">
+                        <input type="text" name="subject" required id="subject_subject" class="subject" placeholder="Subject">
                     </div>
                     <div class="field textarea">
-                        <textarea class="message" cols="30" rows="10" placeholder="Message.."></textarea>
+                        <textarea id="message_message" name="message" required class="message" cols="30" rows="10" placeholder="Message.."></textarea>
                     </div>
                     <div class="button-area">
                         <button class="send-msg" type="submit" name="send">Send message</button>
@@ -277,7 +277,7 @@
 <footer>
     <span>Created By <a href="">Atul</a> | <span class="far fa-copyright"></span> 2021 All rights are reserved.</span>
 </footer>
-
+<!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
 <script src="script.js"></script>
 </body>
 </html>
