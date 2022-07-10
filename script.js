@@ -47,44 +47,4 @@ $(document).ready(function(){
         backSpeed: 60,
         loop: true
     });
-
-    // owl carousel script
-    $('.carousel').owlCarousel({
-        margin: 20,
-        loop: true,
-        autoplayTimeOut: 2000,
-        autoplayHoverPause: true,
-        responsive: {
-            0:{
-                items: 1,
-                nav: false
-            },
-            600:{
-                items: 2,
-                nav: false
-            },
-            1000:{
-                items: 3,
-                nav: false
-            }
-        }
-    });
 });
-
-
-// function sendEmail(){
-//     Email.send({
-//         Host : "smtp.gmail.com",
-//         Username : "atultechd@gmail.com",
-//         Password : "9651@8680",
-//         To : 'atultechd@gmail.com',
-//         From : document.getElementById("email_email").value,
-//         Subject : "New contact form enquiry",
-//         Body : "Name: " + document.getElementById("name_name").value
-//                 + "<br> Email: " + document.getElementById("email_email").value
-//                 + "<br> Subject: " + document.getElementById("subject_subject").value
-//                 + "<br> Message: " + document.getElementById("message_message").value
-//     }).then(
-//         message => alert("Message sent successfully")
-//     );
-// }
